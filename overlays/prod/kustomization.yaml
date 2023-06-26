@@ -1,11 +1,14 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: wooridaum
-bases:
-- ../../base
-- namespace.yaml
 patches:
-- target:
+- path: domain.json
+  target:
     kind: Ingress
     name: ingress
-  path: domain.json
+resources:
+- ../../base
+- namespace.yaml
+images:
+- name: sce06147/wooridaum
+  newTag: 05340980aa4e09a5b3bdc110bcebb2d13cc327c2
