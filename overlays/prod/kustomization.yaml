@@ -11,4 +11,4 @@ resources:
 - namespace.yaml
 images:
 - name: sce06147/wooridaum
-  newTag: 14ded80cc21154f51a3dc0ef8f2d83eb20a8d077
+  newTag: 49c8a4c41c0429951f4ae9357e2fa279decbb704
