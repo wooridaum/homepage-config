@@ -1,0 +1,12 @@
+[
+    { 
+        "op": "replace", 
+        "path": "/spec/rules/0/host", 
+        "value": "dev.wooridaum.scg.skku.ac.kr"
+    },
+    { 
+        "op": "replace", 
+        "path": "/spec/tls/0/hosts/0", 
+        "value": "dev.wooridaum.scg.skku.ac.kr"
+    }
+]
